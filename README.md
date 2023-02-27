@@ -1,1 +1,11 @@
-# rule_provider
+payload:
+- DST-PORT,183
+- DOMAIN-KEYWORD,zippyshare
+- DOMAIN-KEYWORD,speed.hetzner
+- DOMAIN-KEYWORD,googleusercontent
+- DOMAIN-KEYWORD,moon-storage-delivery
+- DOMAIN-KEYWORD,userstorage.mega
+- DOMAIN-KEYWORD,1fichier.com
+- DOMAIN-KEYWORD,uptobox
+- DOMAIN-KEYWORD,ff-01.com
+- DOMAIN-KEYWORD,mediafire.com
