@@ -1,20 +1,3 @@
-
-Yogi-0796
-/
-rule_provider
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-rule_provider/ruleGamemax.yaml
-@Yogi-0796
-Yogi-0796 Update ruleGamemax.yaml
- 1 contributor
-842 lines (842 sloc)  19.2 KB
 payload:
 # FreeFire
   - IP-CIDR,103.14.247.0/24
@@ -857,3 +840,210 @@ payload:
   - DST-PORT,30298
   - DST-PORT,30299
   - DST-PORT,30300
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-23.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-24.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-25.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-26.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-27.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-28.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-29.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-30.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-31.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-32.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-33.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-34.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-35.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-36.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-37.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-38.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-39.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-40.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-41.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-42.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-43.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-44.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-45.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-46.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-47.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-48.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-49.ea.com
+  - DOMAIN-SUFFIX,fifa22-prd-mp-blaze-50.ea.com
+  - DOMAIN-SUFFIX,fifa22.content.easports.com
+  - DOMAIN-SUFFIX,fifa22.service.easports.com
+# > forgeofempires
+  - DOMAIN-SUFFIX,forgeofempires.com
+# > gameloft
+  - DOMAIN-SUFFIX,gameloft.com
+# > GoG
+  - DOMAIN-SUFFIX,gog-statics.com
+  - DOMAIN-SUFFIX,gog.com
+  - DOMAIN-SUFFIX,gogalaxy.com
+  - DOMAIN-SUFFIX,gogcdn.net
+# > haydaygame
+  - DOMAIN-SUFFIX,haydaygame.com
+# > king games
+  - DOMAIN-SUFFIX,king.com
+  - DOMAIN-SUFFIX,midasplayer.com
+# > madden by EA
+  - DOMAIN-SUFFIX,madden20.service.easports.com
+  - DOMAIN-SUFFIX,madden21.service.easports.com
+  - DOMAIN-SUFFIX,madden22.service.easports.com
+# > microsoft games
+  - DOMAIN-SUFFIX,microsoftcasualgames.com
+  - DOMAIN-SUFFIX,msgamestudios.com
+# > Minecraft
+  - DOMAIN-SUFFIX,minecraft-services.net
+  - DOMAIN-SUFFIX,minecraft.net
+  - DOMAIN-SUFFIX,minecraftprod.rtep.msgamestudios.com
+  - DOMAIN-SUFFIX,minecraftservices.com
+  - DOMAIN-SUFFIX,mojang.com
+# > Miniclip
+  - DOMAIN-SUFFIX,miniclip.com
+# > Mixer
+  - DOMAIN-SUFFIX,mixer.com
+# > NHL
+  - DOMAIN-SUFFIX,nhl21-prod-app-01.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-02.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-03.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-04.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-05.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-06.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-07.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-08.ea.com
+  - DOMAIN-SUFFIX,nhl21-prod-app-09.ea.com
+  - DOMAIN-SUFFIX,nhl21.content.easports.com
+  - DOMAIN-SUFFIX,nhl21.service.easports.com
+  - DOMAIN-SUFFIX,nhl22.content.easports.com
+  - DOMAIN-SUFFIX,nhl22.service.easports.com
+# > Pokemon Go
+  - DOMAIN-SUFFIX,niantic.helpshift.com
+  - DOMAIN-SUFFIX,nianticlabs.com
+  - DOMAIN-SUFFIX,pokemongolive.com
+# > Nintendo
+  - DOMAIN-SUFFIX,nintendo-europe.com
+  - DOMAIN-SUFFIX,nintendo.be
+  - DOMAIN-SUFFIX,nintendo.co.jp
+  - DOMAIN-SUFFIX,nintendo.co.uk
+  - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,nintendo.com.102.112.2o7.net
+  - DOMAIN-SUFFIX,nintendo.com.au
+  - DOMAIN-SUFFIX,nintendo.de
+  - DOMAIN-SUFFIX,nintendo.es
+  - DOMAIN-SUFFIX,nintendo.eu
+  - DOMAIN-SUFFIX,nintendo.fr
+  - DOMAIN-SUFFIX,nintendo.it
+  - DOMAIN-SUFFIX,nintendo.jp
+  - DOMAIN-SUFFIX,nintendo.net
+  - DOMAIN-SUFFIX,nintendo.nl
+  - DOMAIN-SUFFIX,nintendoco.s.llnwi.net
+  - DOMAIN-SUFFIX,nintendoswitch.cn
+  - DOMAIN-SUFFIX,nintendowifi.net
+# > OP
+  - DOMAIN-SUFFIX,op.gg
+# > Origin
+  - DOMAIN-SUFFIX,origin.com
+# > Playrix
+  - DOMAIN-SUFFIX,playrix.com
+  - DOMAIN-SUFFIX,playrix.helpshift.com
+# > Playstation
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+# > Riot Games
+  - DOMAIN-SUFFIX,leagueoflegends.com
+  - DOMAIN-SUFFIX,lolstatic.com
+  - DOMAIN-SUFFIX,rgpub.io
+  - DOMAIN-SUFFIX,riotcdn.com
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN-SUFFIX,riotgames.com
+# > Rockstar
+  - DOMAIN-SUFFIX,rockstargames.com
+# > Steam
+  - DOMAIN-SUFFIX,s.team
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,valve.net
+  - DOMAIN-SUFFIX,valvesoftware.com
+# > Supercell
+  - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-SUFFIX,supercell.helpshift.com
+  - DOMAIN-SUFFIX,supercell.net
+# > take2games
+  - DOMAIN-SUFFIX,take2games.com
+# > Ubisoft
+  - DOMAIN-SUFFIX,ubi.com
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,ubisoft.org
+  - DOMAIN-SUFFIX,ubisoftconnect.com
+# > Unity3d
+  - DOMAIN-SUFFIX,unity3d.com
+# > War Gaming
+  - DOMAIN-SUFFIX,wargaming.com
+  - DOMAIN-SUFFIX,wargaming.net
+  - DOMAIN-SUFFIX,worldoftanks.com
+# > Xbox
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,gamepass.com
+  - DOMAIN-SUFFIX,xboxab.com
+  - DOMAIN-SUFFIX,xboxab.net
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xboxservices.com
+# > Zynga
+  - DOMAIN-SUFFIX,zynga.com
+  - DOMAIN-SUFFIX,zynga.my
+  - DOMAIN-SUFFIX,zyngagames.com
+  - DOMAIN-SUFFIX,zyngapoker.com
+  - DOMAIN-SUFFIX,zyngasupport.helpshift.com
+# > Bleach ES
+  - DOMAIN-SUFFIX,vsplay.com
+  - DOMAIN-SUFFIX,efun.com
+  - DOMAIN-SUFFIX,efunen.com
+# > Apex Legends Mobile
+  - DOMAIN-SUFFIX,tdm.mgapex.com
+  - DOMAIN-SUFFIX,download.2.707369824.dmp.mgapex.com
+  - DOMAIN-SUFFIX,bugly-android.mgapex.com
+  - DOMAIN-SUFFIX,itop.mgapex.com
+  - DOMAIN-SUFFIX,tgpa.mgapex.com
+  - DOMAIN-SUFFIX,cloudctrl.mgapex.com
+  - DOMAIN-SUFFIX,file.mgapex.com
+  - DOMAIN-SUFFIX,ire.csoversea.mgapex.com
+  - DOMAIN-SUFFIX,voice-sg.mgapex.com
+  - DOMAIN-SUFFIX,pay.mgapex.com
+  - DOMAIN-SUFFIX,lobby.mgapex.com
+  - DOMAIN-SUFFIX,apex.go.sonobi.com
+  - DOMAIN-SUFFIX,mgapex.com
+  - DOMAIN-SUFFIX,devmgapex.com
+  - DOMAIN-SUFFIX,listdl.com
+  - DOMAIN-SUFFIX,awsglobalaccelerator.com
+  - DOMAIN-KEYWORD,mgapex
+  - DOMAIN-KEYWORD,devmgapex
+# > Konami
+  - DOMAIN-SUFFIX,konami.net
+  - DOMAIN-KEYWORD,konami
+  - DOMAIN-SUFFIX,applilink.jp
+# > Growtopia
+  - DOMAIN-SUFFIX,growtopia1.com
+  - DOMAIN-SUFFIX,growtopia2.com
+  - DOMAIN-SUFFIX,growtopiagame.com
+  - DOMAIN-KEYWORD,growtopia
+# > Genshin Impact
+  - DOMAIN-SUFFIX,genshinimpact.com
+  - DOMAIN-SUFFIX,honkaiimpact3.com
+  - DOMAIN-SUFFIX,honkaistarrail.com
+  - DOMAIN-SUFFIX,hoyo.link
+  - DOMAIN-SUFFIX,hoyolab.com
+  - DOMAIN-SUFFIX,hoyoverse.com
+  - DOMAIN-SUFFIX,n0vadesktop.com
+  - DOMAIN-SUFFIX,mihoyo.com
+  - DOMAIN-KEYWORD,genshinimpact
+  - DOMAIN-KEYWORD,honkaiimpact3
+  - DOMAIN-KEYWORD,mihoyo
