@@ -1047,3 +1047,7 @@ payload:
   - DOMAIN-KEYWORD,genshinimpact
   - DOMAIN-KEYWORD,honkaiimpact3
   - DOMAIN-KEYWORD,mihoyo
+# > Stumble Guys
+  - DOMAIN-KEYWORD,StumbleGuys
+  - DOMAIN-SUFFIX,kitkagames.fallbuddies
+  - DOMAIN-SUFFIX,kitkagames.com
