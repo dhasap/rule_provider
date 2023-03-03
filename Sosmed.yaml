@@ -1,5 +1,7 @@
 payload:
 
+#by dhasap
+
   # Search domain
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,twitter
@@ -9,8 +11,7 @@ payload:
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,tiktok
   - DOMAIN-KEYWORD,helo
-  - DOMAIN-KEYWORD,snackvideo
-  
+
   # Reface
   - IP-CIDR,34.101.5.0/24,no-resolve
   - IP-CIDR,69.16.175.0/24,no-resolve
@@ -282,3 +283,7 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibocdn.com
+# > SnackVideo
+  - DOMAIN-KEYWORD,snackvideo
+  - DOMAIN-SUFFIX,snackvideo.com
+  - DOMAIN-SUFFIX,sck.io
